@@ -34,6 +34,7 @@ def get_filters():
         day = input("sorry, wrong input, please choose from: (all, monday, tuesday, ... sunday).")
 
     print('-'*40)
+    print('-'*40)
     return city, month, day
 
 
