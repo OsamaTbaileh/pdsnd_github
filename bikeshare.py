@@ -179,14 +179,14 @@ def show_raw_data(df):
             if remaining_rows <= 0:
                 print("\nNo more data to display.")
                 break
-            elif remaining_rows < 5:
+            elif remaining_rows < 6:
                 print(df.iloc[i:i + remaining_rows])
                 print("\nEnd of data.")
                 break
             else:
-                print(df.iloc[i:i + 5])
-                user_input = input("Would you like to see the next 5 rows? Enter yes or no: ").lower()
-                i += 5
+                print(df.iloc[i:i + 6])
+                user_input = input("Would you like to see the next 6 rows? Enter yes or no: ").lower()
+                i += 6
         elif user_input == 'no':
             break
         else:
