@@ -14,5 +14,5 @@ This project is to get used to the git and GitHub.
 "bikeshare.py" from our previous project.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+git documentation: https://git-scm.com/doc
 
